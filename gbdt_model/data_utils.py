@@ -84,7 +84,7 @@ class PlayerDataEncoder:
         
 def main():
     encoder = PlayerDataEncoder()
-    encoder.generate_train(2019, 2019, 'train_data.csv')
+    encoder.generate_train(2016, 2019, 'train_data.csv')
     pickle.dump(encoder, open('data_encoder.p', 'wb'))
 
 if __name__ == '__main__':
